@@ -1,4 +1,6 @@
 # What is a VNet
+
+[![Git](https://app.soluble.cloud/api/v1/public/badges/9ec40825-e402-42f3-bc19-d884be51370f.svg?orgId=568518005652)](https://app.soluble.cloud/repos/details/github.com/marcosgm/common-design-principles-for-a-hub-and-spoke-vnet-archiecture?orgId=568518005652)  
  
 An Azure Virtual Network (VNet) is like a virtual routing and forwarding (VRF) instance in a traditional network.  It provides a logical network building block to create your network infrastructure on Azure.  It is virtual network isolation on the Azure cloud dedicated to your subscription.  You use a VNet to build or create multiple subnets to support your CIDR design. IP Subnet (Think of a VLAN):  Provides full layer-3 semantics and partial layer-2 semantics (DHCP, ARP, no broadcast/multicast).  You can optionally peer or connect VNets with other VNets as long as address ranges do not overlap.  
 
